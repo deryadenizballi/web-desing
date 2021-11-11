@@ -664,7 +664,7 @@ header nav.black .menu ul li a {
   height: 130px;
   position: absolute;
   top: 0;
-  left: 0;
+ 
   background: var(--bg__color);
   z-index: -1;
   opacity: 0.2;
