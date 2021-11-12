@@ -24,11 +24,13 @@
 
             <div class="menu">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Desing</a></li>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="#proje_alan">Projeler</a></li>
+                    <li><a href="#">UI Tasarımlar</a></li>
                     <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="app/Images/deryadenizballi___cv.pdf" downland class="cv-btn">CV Dowland</a></li>
+                    <li><a href="#">İletişim</a></li>
+                    <li><a href="app/Images/deryadenizballi___cv.pdf" downland class="cv-btn">CV İndir <i
+                                class=" ms-2 fas fa-download"></i></a></li>
                 </ul>
             </div>
 
@@ -39,10 +41,12 @@
 
                 <div class="mobile__nav ">
                     <ul>
-                        <li><a href="#">Hakkımda</a></li>
-                        <li><a href="#">Yaptığım İşler</a></li>
-                        <li><a href="#">Yorumlar</a></li>
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="#">Tasarım</a></li>
+                        <li><a href="#">Blog</a></li>
                         <li><a href="#">İletişim</a></li>
+                        <li><a href="app/Images/deryadenizballi___cv.pdf" downland class="cv-btn">CV İndir <i
+                                    class=" ms-2 fas fa-download"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -53,20 +57,21 @@
     <!-- fixed menu  -->
     <div class="fixed__menu">
         <ul>
-            <li> <i class="fas fa-moon"></i> Dark Mod</li>
-            <li><i class="fas fa-globe"></i> Türkçe</li>
-            <li> <i class="fas fa-moon"></i> English</li>
+            <li> <i class="fas fa-moon me-2"></i> Dark Mod</li>
+            <li><i class="fas fa-globe me-2"></i> Türkçe</li>
+            <li> <i class="fas fa-globe me-2"></i> English</li>
         </ul>
     </div>
 
     <!-- hakkımda  -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7 col-md-12 col-sm-12">
+    <div class="container about__container ">
+        <div class="row d-flex">
+            <div class="col-lg-7 col-md-12 col-sm-12 order-1 ">
                 <div class="header__content">
                     <h6>FRONTEND DEVELOPER</h6>
                     <h1>DERYA BALLI</h1>
-                    <P>Merhaba ben derya Mersin Üniversitesi bilgisayar teknolojileri ve bilişim sistemleri mezunuyum.
+                    <P>Merhaba ben Derya Mersin Üniversitesi Bilgisayar Teknolojileri ve Bilişim Sistemleri (lisans)
+                        mezunuyum.
                         Kodlamaya ilkokul yıllarımda ilgi duymaya başladım bu yüzden liseyi de web tasarım üzerine
                         okudum.
                         Bir fikri hayata geçirirken yazılım ve tasarım aşamalarını tasarlayıp kodlamaktan keyif alan
@@ -74,14 +79,20 @@
                         Bu yolda yaptığım işleri görmek için portfoliomu daha yakından inceleyebilirsiniz.
                     </P>
                     <div class="header_btn_box">
-                        <button class="header_btn">More read <i class="fas fa-arrow-right"></i> </button>
+                        <button class="header_btn"> <a href="#proje_alan"> Projeleri İncele<i
+                                    class="fas fa-arrow-right"></i></a> </button>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5">
-                <div class="header_img">
-                    <div class="img_bg"></div>
-                    <img src="app/Images/header_img.png" alt="">
+            <div class="offset-lg-1 col-lg-4 col-md-12 col-sm-12 order-sm-1 ">
+                <!-- <div class="header_img">
+                        <div class="img_bg"></div>
+                        <img src="app/Images/header-img2.png" alt="">
+                    </div> -->
+                <div class="header_img2">
+                    <div class="img_bg2">
+                        <img src="app/Images/header-img2.png" class="img-fluid" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -202,34 +213,8 @@
         </div>
     </div>
 
-    <!-- ıu desing  -->
-    <div class="proje__tittle text-center">
-        <p class="color__tittle">UI Tasarımlar </p>
-        <h4>ARAYÜZ ÇALIŞMALARIM</h4>
-
-        <span class="line__div"></span>
-    </div>
-    <div class="container container__uı">
-
-        <div class="box">
-            <img src="app/Images/dene.PNG">
-            <span>PASTE</span>
-        </div>
-        <div class="box">
-            <img src="https://source.unsplash.com/1000x802">
-            <span>Image</span>
-        </div>
-        <div class="box">
-            <img src="https://source.unsplash.com/1000x804">
-            <span>Hover</span>
-        </div>
-        <div class="box">
-            <img src="https://source.unsplash.com/1000x806">
-            <span>Effect</span>
-        </div>
-    </div>
-
     <!-- project  -->
+    <a name="proje_alan"></a>
     <div class="container project__container">
         <div class="proje__tittle text-center">
             <p class="color__tittle">Projelerim </p>
@@ -269,46 +254,40 @@
                                         <div class="projet__cart">
 
                                             <div class="cart__img">
-                                                <img src="https://deryadenizballi.github.io/app/images/proje1.webp"
-                                                    alt="next">
+                                                <img src="app/Images/starbuck.PNG" alt="next">
 
                                                 <span>
-                                                    <p> <a href="#"> Projeyi İncele </a> </p> <a href="#"> <i
-                                                            class="fas fa-link"></i></a>
+                                                    <p> <a href="https://deryadenizballi.github.io/starbucks-landing-page/"
+                                                            target="_blank"> Projeyi İncele </a> </p> <a
+                                                        href="https://deryadenizballi.github.io/starbucks-landing-page/"
+                                                        target="_blank">
+                                                        <i class="fas fa-link"></i></a>
                                                 </span>
                                             </div>
 
                                             <div class="card__text">
-                                                <h6>Netflix Landing Page</h6>
+                                                <h6>Starbucks Landing Page</h6>
                                                 <!-- <span class="line__div" ></span> -->
-
                                                 <h5>Teknolojiler</h5>
-
                                                 <ul type="none">
                                                     <li>HTML - </li>
                                                     <li>CSS - </li>
                                                     <li>JavaScript</li>
                                                 </ul>
-
-
-
-
-
                                                 <div class="card__hidden">
 
-                                                    <p> Netflix sayfasını klonlayarak bir proje oluşturdum.Projemi
+                                                    <p> Starbucks websitesini klonlayarak bir proje oluşturdum.Projemin kodlarını
                                                         detaylı
                                                         incelemek isterseniz
-                                                        Github sayfamdan mevcut linke tıklayarak ulaşabilirsiniz.
+                                                       <a href="https://github.com/deryadenizballi/starbucks-landing-page"  target="_blank" style="color: #f35290;" >Github </a> sayfamdan mevcut linke tıklayarak ulaşabilirsiniz.
                                                     </p>
 
-                                                    <button class="cart_btn"> İNCELE </button>
+                                                    <button class="cart_btn"> <a
+                                                            href="https://deryadenizballi.github.io/starbucks-landing-page/"
+                                                            target="_blank"> İNCELE </a></button>
                                                 </div>
                                             </div>
-
-
                                         </div>
-
                                     </div>
 
                                     <div class="col-lg-4 col-md-4 col-sm-12">
@@ -316,39 +295,39 @@
                                         <div class="projet__cart">
 
                                             <div class="cart__img">
-                                                <img src="https://deryadenizballi.github.io/app/images/proje1.webp"
-                                                    alt="next">
+                                                <img src="app/Images/netflix.png" alt="next">
 
                                                 <span>
-                                                    <p> <a href="#"> Projeyi İncele </a> </p> <a href="#"> <i
-                                                            class="fas fa-link"></i></a>
+                                                    <p> <a href="https://deryadenizballi.github.io/nexflix_landing_page/"
+                                                            target="_blank"> Projeyi İncele </a> </p> <a
+                                                        href="https://deryadenizballi.github.io/nexflix_landing_page/"
+                                                        target="_blank">
+                                                        <i class="fas fa-link"></i></a>
                                                 </span>
                                             </div>
 
                                             <div class="card__text">
                                                 <h6>Netflix Landing Page</h6>
                                                 <!-- <span class="line__div" ></span> -->
-
                                                 <h5>Teknolojiler</h5>
-
                                                 <ul type="none">
                                                     <li>HTML - </li>
                                                     <li>CSS - </li>
                                                     <li>JavaScript</li>
                                                 </ul>
-
                                                 <div class="card__hidden">
 
-                                                    <p> Netflix sayfasını klonlayarak bir proje oluşturdum.Projemi
+                                                    <p> Netflix websitesini klonlayarak bir proje oluşturdum.Projemin kodlarını
                                                         detaylı
                                                         incelemek isterseniz
-                                                        Github sayfamdan mevcut linke tıklayarak ulaşabilirsiniz.
+                                                       <a href="https://github.com/deryadenizballi/nexflix_landing_page"  target="_blank" style="color: #f35290;" >Github </a> sayfamdan mevcut linke tıklayarak ulaşabilirsiniz.
                                                     </p>
 
-                                                    <button class="cart_btn"> İNCELE </button>
+                                                    <button class="cart_btn"> <a
+                                                            href="https://deryadenizballi.github.io/nexflix_landing_page/"
+                                                            target="_blank"> İNCELE </a></button>
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
 
@@ -535,8 +514,74 @@
         </div>
     </div>
 
+    <!-- uı desing  -->
+    <div class="ui_deneme container-fluid">
+
+        <div class="demo-description">
+            <p class="color__tittle">UI Tasarımlar </p>
+            <p class="demo-description__p"> Adobe XD tasarlarıdığım bazı tasarımlarım tamamını <a href="#">Behance</a>
+                profilimde inceleyebilirsiniz. <picture> effect.</p>
+            <div class="header_btn_box">
+                <button class="header_btn">Tümünü Gör <i class="fas fa-arrow-right"></i> </button>
+            </div>
+
+        </div>
+
+        <div class="demo coursemeal">
+            <!-- MAIN COURSE-->
+            <div class="coursemeal__div">
+
+                <picture class="responsive-img">
+                    <source media="(min-width: 992px)" srcset="app/Images/new.PNG">
+                    <source media="(min-width: 767px)" srcset="https://i.postimg.cc/9XYj186s/maindish-img-2.jpg">
+                    <source srcset="https://i.postimg.cc/pLY8dt4q/maindish-img-3.jpg">
+                    <img src="https://i.postimg.cc/V6NCCRK0/maindish-img-1.jpg" alt="Main Course">
+                </picture>
+
+                <div class="coursemeal-info">
+                    <a href="#" class="coursemeal-info__link">FASHION</a>
+                </div>
+            </div>
+
+            <!-- APPETIZERS-->
+            <div class="coursemeal__div ">
+
+                <picture class="responsive-img">
+                    <source media="(min-width: 992px)" srcset="app/Images/pasta.PNG">
+                    <source media="(min-width: 767px)" srcset="https://i.postimg.cc/1RTdCYhB/appetizer-img-2.jpg">
+                    <source srcset="app/Images/header_img.png">
+                    <img src="app/Images/header_img.png" alt="Appetizer">
+                </picture>
+
+                <div class="coursemeal-info">
+                    <a href="#" class="coursemeal-info__link">PASTA</a>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- DESSERTS-->
+            <div class="coursemeal__div">
+
+                <picture class="responsive-img">
+                    <source media="(min-width: 992px)" srcset="app/Images/dene.PNG">
+                    <source media="(min-width: 767px)" srcset="https://i.postimg.cc/FsRXBnKn/dessert-img-2.jpg">
+                    <source srcset="https://i.postimg.cc/ZKcFCVFZ/dessert-img-3.jpg">
+                    <img src="https://i.postimg.cc/ZKcFCVFZ/dessert-img-1.jpg" alt="Desserts">
+                </picture>
+
+                <div class="coursemeal-info">
+                    <a href="#" class="coursemeal-info__link">SHOE </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
     <!-- ara  -->
-    <div class="tell">
+    <!-- <div class="tell">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -550,10 +595,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- medium  -->
-    <div class="container">
+    <div class="container mt-5">
         <div class="proje__tittle text-center">
             <p class="color__tittle">Yazılarım</p>
             <h4>MERAK ETTİKLERİM</h4>
@@ -709,7 +754,7 @@
                                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                                 <li><a href="#"><i class="fab fa-behance"></i></a></li>
                             </ul>
-                            <p>© 2021 Built ♥  Derya Ballı   </p>
+                            <p>© 2021 Built ♥ Derya Ballı </p>
                         </div>
                     </div>
                 </div>
@@ -901,3 +946,33 @@
 </body>
 
 </html>
+
+
+
+
+<!-- ıu desing2  -->
+<!-- <div class="proje__tittle text-center">
+        <p class="color__tittle">UI Tasarımlar </p>
+        <h4>ARAYÜZ ÇALIŞMALARIM</h4>
+
+        <span class="line__div"></span>
+    </div>
+    <div class="container container__uı">
+
+        <div class="box">
+            <img src="app/Images/dene.PNG">
+            <span>PASTE</span>
+        </div>
+        <div class="box">
+            <img src="https://source.unsplash.com/1000x802">
+            <span>Image</span>
+        </div>
+        <div class="box">
+            <img src="https://source.unsplash.com/1000x804">
+            <span>Hover</span>
+        </div>
+        <div class="box">
+            <img src="https://source.unsplash.com/1000x806">
+            <span>Effect</span>
+        </div>
+    </div> -->

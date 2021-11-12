@@ -24,7 +24,7 @@ particlesJS('particles-js',
       },
       "color": {
         //  ,"#DC8C2F" ,"#0E604D" 
-        "value": ["#000" ],
+        "value": ["#DC8C2F" ,"#0E604D"  ],
       },
       "shape": {
         "type": ["star"],
@@ -53,7 +53,7 @@ particlesJS('particles-js',
         }
       },
       "size": {
-        "value": 5,
+        "value": 4,
         "random": true,
         "anim": {
           "enable": false,
