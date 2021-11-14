@@ -24,7 +24,7 @@ particlesJS('particles-js',
       },
       "color": {
         //  ,"#DC8C2F" ,"#0E604D" 
-        "value": ["#8854d0"],
+        "value": ["#000"],
       },
       "shape": {
         "type": ["star"],
