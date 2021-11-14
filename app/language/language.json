@@ -1,0 +1,55 @@
+{
+    "languages": {
+        "en": {
+            "strings": {
+                "main-text-one": "Hi, I am a graduate of Kadir Anadolu University Management Information Systems.",
+                "main-text-two":"Since my childhood was spent playing games on the computer, I started to be interested in software at that time.",
+                "main-text-three":"I recommend you to spend time on my website for more information about me and the projects I have developed.",
+                "project":"Project",
+                "blog":"Blog",
+                "my-project":"My Project",
+                "about": "About Me",
+                "contact":"Contact Me",
+                "my-blog":"My Blog",
+                "technologies":"Technologies", 
+                "template":"Template",
+                "my-template":"My Template",
+                "name" : "Name",
+                "age" : "Age",
+                "email" : "E-mail",
+                "about-desc-1" : "Hi! I'm Kadir. I'm a Web Developer. I'm very committed and passionate about my job. With the experience I have gained since I was 18 years old, I have the necessary knowledge and skills to make your projects successful.",
+                "about-desc-2" : "You can download my resume or contact me to learn more about me.",
+                "technology-text": "Technologies and Frameworks that I often use while developing my projects.",
+                "template-text" : "My designs that can be used in projects",
+                "download-cv": "Download Cv"
+                
+            }
+        },
+        "tr": {
+            "strings": {
+                "main-text-one":"Merhaba ben Kadir, Anadolu Üniversitesi Yönetim Bilişim Sistemleri mezunuyum.",
+                "main-text-two":"Çocukluğum bilgisayar başında oyun oynayarak geçtiği için yazılıma ilgi duymaya o zamanlar başladım.",
+                "main-text-three":"Hakkımda daha fazla bilgi ve geliştirdiğim projeler için websitem de vakit geçirmenizi tavsiye ederim.",
+                "project":"Projelerim",
+                "blog":"Yazılarım",
+                "about-me": "Hakkımda",
+                "about": "Hakkımda",
+                "contact":"İletişim",
+                "my-project":"Projelerim",
+                "my-blog":"Yazılarım",
+                "technologies":"Teknolojiler",
+                "template":"Tasarımlarım",
+                "my-template":"Tasarımlarım",
+                "name" : "İsim",
+                "age" : "Yaş",
+                "email" : "E-posta",
+                "about-desc-1" : "Merhaba! Ben Kadir. Web geliştiricisiyim. İşime çok tutkulu ve bağlıyım. 18 yaşından beri elde ettiğim deneyim ile projelerinizi başarıya ulaştıracak gerekli bilgi ve becerilere sahibim.",
+                "about-desc-2" : "Hakkımda daha fazla bilgi edinmek için özgeçmişimi indirebilir veya benimle iletişime geçebilirsiniz.",
+                "technology-text": "Projelerimi geliştirirken sıklıkla kullandığım Teknoloji ve Frameworkler.",
+                "template-text" : "Projeler de kullanılabilecek tasarımlarım",
+                "download-cv": "Cv İndir"
+                
+            }
+        }
+    }
+  }

@@ -342,6 +342,8 @@ header nav.black .menu ul li a {
   text-decoration: none;
   color: black;
   font-weight: 400;
+  position: relative;
+  z-index: 2;
 }
 .header_btn i {
   font-weight: 500;
@@ -351,7 +353,7 @@ header nav.black .menu ul li a {
 .header_btn::before {
   content: "";
   width: 50px;
-  z-index: -1;
+  z-index: 1;
   height: 50px;
   box-shadow: 1px 1px 5px black;
   background: linear-gradient(
@@ -365,25 +367,19 @@ header nav.black .menu ul li a {
   border-radius: 25px;
   top: 0;
   left: 0;
+  transition: width .7s;
 }
 .header_btn:hover a {
   color: white;
-  transition: 0.6s;
+  transition: 0.6s all;
 }
 .header_btn:hover::before {
   width: 100%;
-  transition: 0.4s;
-  border-radius: 25px;
-  background: linear-gradient(
-    90deg,
-    rgba(170, 75, 107, 1) 0%,
-    rgba(107, 107, 131, 1) 58%,
-    rgba(59, 141, 153, 1) 100%
-  );
 }
+
 .header_btn:hover i {
   color: var(--black);
-  transition: 0.5s;
+  transition: 0.5s all;
 }
 
 /* ***************************************** fixed menu ***************************************** */

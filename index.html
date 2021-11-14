@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -152,7 +152,7 @@
 
             <div class="menu">
                 <ul>
-                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="javascript:;" class="menu__link" data-key="project"></a></li>
                     <li><a href="#proje_alan">Projeler</a></li>
                     <li><a href="#ui_alan">UI Tasarımlar</a></li>
                     <li><a href="#blog_alan">Blog</a></li>
@@ -183,11 +183,24 @@
     </header>
 
     <!-- fixed menu  -->
-    <div class="fixed__menu">
-        <ul>
+    <div class="fixed__menu lang-menu">
+        <!-- <ul>
             <li> <i class="fas fa-moon me-2"></i> Dark Mod</li>
             <li><i class="fas fa-globe me-2"></i> Türkçe</li>
             <li> <i class="fas fa-globe me-2"></i> English</li>
+        </ul> -->
+      <ul>
+          <li>
+            <button class="lang-menu__btn  " data-lang="tr">
+                <i class="fas fa-globe me-2"></i> Türkçe
+            </button>
+          </li>
+          <li>
+            <button class="lang-menu__btn" data-lang="en">
+                <i class="fas fa-globe me-2"></i> English
+            </button>
+          </li>
+           
         </ul>
     </div>
 
@@ -1023,6 +1036,7 @@
         var swiper = new Swiper(".teknoloji", {
 
             freeMode: true,
+            loop: true,
             autoplay: {
                 delay: 1500,
                 disableOnInteraction: false,
