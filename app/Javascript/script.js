@@ -49,17 +49,23 @@ function getCookie(name) {
   if (parts.length === 2) return parts.pop().split(";").shift();
 }
 
-$(window).on("load", function () {
-  $(".load").delay(2500).fadeOut("slow");
-});
+// $(window).on("load", function () {
+//   $(".load").delay(2500).fadeOut("slow");
+// });
+
+const body =document.querySelector("#bg__container");
+console.log (body);
 const menu_btn = document.querySelector(".hamburger"),
+
   mobile_menu = document.querySelector(".mobile__nav"),
   logo_color = document.querySelector("#logo");
-menu_btn.addEventListener("click", function () {
+
+  menu_btn.addEventListener("click", function () {
   menu_btn.classList.toggle("is-active");
   mobile_menu.classList.toggle("is-active");
-  logo_color.classList.toggle("is-active");
+  body.classList.toggle("overdene");
 });
+
 
 // slider  <!-- teknoloji -->
 var swiper = new Swiper(".teknoloji", {

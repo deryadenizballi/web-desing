@@ -19,25 +19,6 @@
   --black: #333333;
   --purple: #12c2e9;
   --secondaryColor: #dfdeebfb;
-
-  /* teknoloji color  */
-  --dark: #1d1b1b;
-  --blue: #039cd2;
-  --gray: #494b50;
-  --white: #fff;
-  --html: #e34f26;
-  --css: #1572b6;
-  --javascript: #f7df1e;
-  --bootstrap: #7952b3;
-  --cSharp: #239120;
-  --php: #777bb4;
-  --codeigniter: #ef4223;
-  --git: #f05032;
-  --photoshop: #31a8ff;
-  --illustrator: #ff9a00;
-  --wordpress: #21759b;
-  --dotnet: #362081;
-  --jquery: #0769ad;
 }
 
 body {
@@ -49,6 +30,11 @@ body {
   background-image: url("../Images/bg.png");
   background-repeat: repeat-y;
   overflow-x: hidden;
+}
+
+body.overdene{
+  overflow-y: hidden;
+  height: 80vh;
 }
 
 #particles-js {
@@ -182,7 +168,7 @@ header nav.black .menu ul li a {
   top: 0;
   left: 100%;
   width: 100%;
-  min-height: 100vh;
+  min-height: 93vh;
   z-index: 98;
   background: whitesmoke;
   padding-top: 50px;
@@ -433,6 +419,7 @@ header nav.black .menu ul li a {
   color: white;
 }
 /*********************************************** proje ************************************************** */
+
 .project__container {
   margin-top: 50px;
 }
@@ -986,7 +973,7 @@ footer {
   font-weight: 600;
   font-size: 3rem;
   text-transform: capitalize;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   display: inline-block;
   position: relative;
 }
