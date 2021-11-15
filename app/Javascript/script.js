@@ -35,7 +35,7 @@ function contentLanguageChange(lang) {
       fetch("app/language/language.json")
         .then((response) => response.json())
         .then((data) => {
-          console.log(data);
+          
           element.textContent = data.languages[lang].strings[key];
         });
     }
@@ -54,7 +54,7 @@ function getCookie(name) {
 // });
 
 const body =document.querySelector("#bg__container");
-console.log (body);
+
 const menu_btn = document.querySelector(".hamburger"),
 
   mobile_menu = document.querySelector(".mobile__nav"),
@@ -128,3 +128,20 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
+
+
+
+function mobileMenuHide(){
+  var menuLinks = document.querySelectorAll('.mobile__nav-link');
+
+  menuLinks.forEach(element => {
+      element.addEventListener('click',function(){
+        const mobileMenu = document.querySelector('.mobile__nav');
+        mobileMenu.classList.remove('is-active');
+        document.getElementById('bg__container').classList.remove('overdene');
+        document.querySelector('.hamburger').classList.remove('is-active');
+      });
+  });
+}
+
+mobileMenuHide();
